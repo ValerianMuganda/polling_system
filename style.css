@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  /* z-index: 1000; Ensure the header stays above other content */
+}
+
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.main {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 620px;
+  background-color: #f3f3f3;
+}
+
+.vote {
+  width: 300px;
+  height: 350px;
+  margin-top: 100px;
+}
+
+.main h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  margin-top: 20px;
+}
+.main p {
+  font-size: 20px;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+.main input {
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: rgb(184, 92, 92);
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  transition: ease 1s;
+}
+.main input:hover {
+  background-color: #4caf50;
+  cursor: pointer;
+}
+.main input:active {
+  background-color: rgb(59, 59, 158);
+  cursor: pointer;
+}
+.vale {
+  text-align: center;
+  height: 200px;
+  align-items: center;
+  padding-top: 60px;
+}
+.vale h2 {
+  font-size: 30px;
+  align-items: center;
+  font-family: cursive;
+
+  /*  */
+}
+.vale p {
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.card {
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  height: 400px;
+}
+
+.card img {
+  width: fit-content;
+  height: 200px;
+  border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  top: 10px;
+  margin: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-size: 25px;
+}
+
+.card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.footer {
+  height: 100px;
+  background-color: #333;
+  text-align: center;
+  padding: 50px;
+}
+.border {
+  margin: 30px 350px;
+  padding: 20px;
+  padding-left: 130px;
+  border: 2px solid black;
+  
+}
+#name{
+  width: 300px;
+  height: 30px;
+  padding-right:40px;
+}
+#email{
+  width: 300px;
+  height: 30px;
+}
+.submit{
+  margin-left: 100px;
+  width: 90px;
+  height: 40px;
+  color: brown;
+}
+#submit:hover{
+  color: #4caf50;
+}
